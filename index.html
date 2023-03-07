@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuyển đội tiền tệ</title>
+</head>
+<body>
+    <table style="width: 700px";>
+        <tr>
+            <td><label for="giatriid"><strong>Ammout</strong></label></td>
+            <td><label for="donvi1"><strong>From Currency</strong></label></td>
+            <td><label for="donvi2"><strong>To Currency</strong></label></td>
+            <td><strong><p></p></strong></td>
+        </tr>
+        <tr>
+            <td><input id="giatriid" type="text" name="number" ></td>
+            <td>
+                <select id="donvi1">
+                    <option value="vnd">Vietnam Dong</option>
+                    <option value="$">Dollar</option>
+                </select>          
+            </td>
+            <td>
+                <select id="donvi2">
+                    <option value="vnd">Vietnam Dong</option>
+                    <option value="$">Dollar</option>
+                </select>          
+            </td>
+            <td><button type="button" onclick="showMessage()">Convert</td>
+        </tr>
+    </table>
+    <p style="color: blue;" id="result"></p>
+    <script src="index.js"></script>
+</body>
+</html>
